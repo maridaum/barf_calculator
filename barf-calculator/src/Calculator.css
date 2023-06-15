@@ -1,0 +1,38 @@
+.calculator {
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calc--form {
+  width: 75%;
+}
+
+.calc--title {
+  font-weight: 500;
+}
+
+.calc--label {
+  font-weight: 400;
+}
+.calc--label :not([htmlFor="weight"]) {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.note {
+  font-size: 0.75rem;
+}
+
+
+.calc--input, .calc--select {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
